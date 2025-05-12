@@ -17,6 +17,7 @@
                 <li><a href="../../index.html">Home</a></li>
                 <li><a href="./sobre.html">Sobre</a></li>
                 <li><a href="./quiz.html">Quiz</a></li>
+                <li><a href="./localiza.html">Localiza</a></li>
                 <li><a href="./contato.html">Contato</a></li>
             </ul>
         </nav>
@@ -27,33 +28,33 @@
             <form class="form" id="form">
                 <article class="control">
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome">
-                    <i class="error"><img src="../assets/erro.svg"</i>
+                    <input type="text" name="nome" id="nome" >
+                    <i class="error"><img src="../assets/erro.svg"></i>
                     <small>Erro</small>
                 </article>
 
                 <article class="control">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
-                    <i class="error"><img src="../assets/erro.svg"</i>
+                    <input type="email" name="email" id="email">
+                    <i class="error"><img src="../assets/erro.svg"></i>
                     <small>Erro</small>
                 </article>
 
                 <article class="control">
                     <label for="descricao">Descrição</label>
-                    <textarea type="text" name="descricao" id="descricao" required></textarea>
-                    <i class="error"><img src="../assets/erro.svg"</i>
+                    <textarea type="text" name="descricao" id="descricao"></textarea>
+                    <i class="error"><img src="../assets/erro.svg"></i>
                     <small>Erro</small>
                 </article>
 
-                <button type="submit" onclick="validarFormulario()">Enviar</button>
+                <button type="submit" onclick="validar()">Enviar</button>
 
             </form>
 
         </div>
 
-
     </main>
+
     <script src="../js/contato.js"></script>
 </body>
 </html>

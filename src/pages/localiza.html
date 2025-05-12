@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Sobre</title>
+    <!-- CHAMANDO O CSS DA API -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"crossorigin=""/>
+    <title>localiza</title>
 </head>
 <body>
     <header>
@@ -19,6 +21,17 @@
             </ul>
         </nav>
     </header>
-    <h1>Sobre</h1>
+    <main>
+        <div id="localiza">
+            <h1> Mapa de Localização</h1>
+            <section id="mapa-container">
+                <div id="mapid"></div>
+                <div id="localizacao">Clique no mapa para ver a localização</div>
+            </section>
+        </div>
+    </main>
+    <!-- CHAMANDO O JAVASCRIPT DA API -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"crossorigin=""></script>
+    <script src="../js/localiza.js"></script>
 </body>
 </html>

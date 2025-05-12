@@ -65,4 +65,5 @@ document.addEventListener('DOMContentLoaded',()=>{
      reiniciarBotao.addEventListener('click',reiniciarQuiz);
 
      mostrarPergunta();
+
 })

@@ -8,7 +8,7 @@ let imagens =[
 
 //DECLARANDO AS VARIAVEIS
 
-let i=0;
+let i = 0;
 let tempo = 5000;
 
 //CRIANDO A FUNÇÃO DO SLIDESHOW
@@ -17,8 +17,8 @@ function slideShow(){
     document.getElementById('image').src = imagens[i];
     i++;
     if(i == imagens.length){
-        i = 0;
+        i=0;
     }
     setTimeout("slideShow()",tempo)
 }
-slideShow(); 
+slideShow();
